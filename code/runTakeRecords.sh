@@ -8,6 +8,7 @@ mkdir ./"$timestamp"
 cd ./"$timestamp"
 
 # log file list goes here
+cp /var/log/audit/audit.log ./
 cp /etc/passwd ./
 cp /etc/shadow ./
 cp /var/log/auth.log ./
