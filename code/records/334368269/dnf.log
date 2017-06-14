@@ -1,0 +1,674 @@
+Jun 13 15:51:22 INFO --- logging initialized ---
+Jun 13 15:51:22 DDEBUG timer: config: 5 ms
+Jun 13 15:51:22 DEBUG cachedir: /var/cache/dnf
+Jun 13 15:51:22 DEBUG Loaded plugins: Query, generate_completion_cache, copr, builddep, playground, noroot, download, config-manager, protected_packages, langpacks, reposync, needs-restarting, debuginfo-install
+Jun 13 15:51:22 DEBUG Adding en_GB to language list
+Jun 13 15:51:22 DEBUG Error reading file : /var/lib/dnf/plugins/langpacks/installed_langpacks as it does not exist
+Jun 13 15:51:22 DEBUG initialized Langpacks plugin
+Jun 13 15:51:22 DEBUG DNF version: 1.1.3
+Jun 13 15:51:22 DDEBUG Command: dnf 
+Jun 13 15:51:22 DDEBUG Installroot: /
+Jun 13 15:51:22 DDEBUG Releasever: 23
+Jun 13 15:51:22 DDEBUG Base command: makecache
+Jun 13 15:51:22 DDEBUG Extra commands: ['timer']
+Jun 13 15:51:22 DEBUG Making cache files for all metadata files.
+Jun 13 15:51:22 INFO Metadata cache refreshed recently.
+Jun 13 15:51:22 DDEBUG Cleaning up.
+Jun 13 16:51:29 INFO --- logging initialized ---
+Jun 13 16:51:29 DDEBUG timer: config: 4 ms
+Jun 13 16:51:29 DEBUG cachedir: /var/cache/dnf
+Jun 13 16:51:29 DEBUG Loaded plugins: generate_completion_cache, langpacks, config-manager, Query, needs-restarting, noroot, copr, protected_packages, builddep, download, debuginfo-install, playground, reposync
+Jun 13 16:51:29 DEBUG Adding en_GB to language list
+Jun 13 16:51:29 DEBUG Error reading file : /var/lib/dnf/plugins/langpacks/installed_langpacks as it does not exist
+Jun 13 16:51:29 DEBUG initialized Langpacks plugin
+Jun 13 16:51:29 DEBUG DNF version: 1.1.3
+Jun 13 16:51:29 DDEBUG Command: dnf 
+Jun 13 16:51:29 DDEBUG Installroot: /
+Jun 13 16:51:29 DDEBUG Releasever: 23
+Jun 13 16:51:29 DDEBUG Base command: makecache
+Jun 13 16:51:29 DDEBUG Extra commands: ['timer']
+Jun 13 16:51:29 DEBUG Making cache files for all metadata files.
+Jun 13 16:51:29 INFO Metadata cache refreshed recently.
+Jun 13 16:51:29 DDEBUG Cleaning up.
+Jun 13 17:51:36 INFO --- logging initialized ---
+Jun 13 17:51:36 DDEBUG timer: config: 4 ms
+Jun 13 17:51:36 DEBUG cachedir: /var/cache/dnf
+Jun 13 17:51:36 DEBUG Loaded plugins: generate_completion_cache, debuginfo-install, copr, download, noroot, needs-restarting, reposync, Query, langpacks, config-manager, protected_packages, builddep, playground
+Jun 13 17:51:36 DEBUG Adding en_GB to language list
+Jun 13 17:51:36 DEBUG Error reading file : /var/lib/dnf/plugins/langpacks/installed_langpacks as it does not exist
+Jun 13 17:51:36 DEBUG initialized Langpacks plugin
+Jun 13 17:51:36 DEBUG DNF version: 1.1.3
+Jun 13 17:51:36 DDEBUG Command: dnf 
+Jun 13 17:51:36 DDEBUG Installroot: /
+Jun 13 17:51:36 DDEBUG Releasever: 23
+Jun 13 17:51:36 DDEBUG Base command: makecache
+Jun 13 17:51:36 DDEBUG Extra commands: ['timer']
+Jun 13 17:51:36 DEBUG Making cache files for all metadata files.
+Jun 13 17:51:36 DEBUG updates: metadata will expire after 9550 seconds and will be refreshed now
+Jun 13 17:51:36 DEBUG fedora: will expire after 1986237 seconds.
+Jun 13 17:51:39 DEBUG reviving: 'updates' can be revived.
+Jun 13 17:52:26 DEBUG repo: using cache for: fedora
+Jun 13 17:52:26 DEBUG not found deltainfo for: Fedora 23 - x86_64
+Jun 13 17:52:26 DEBUG not found updateinfo for: Fedora 23 - x86_64
+Jun 13 17:53:38 DDEBUG timer: sack setup: 121799 ms
+Jun 13 17:53:38 INFO Metadata cache created.
+Jun 13 17:53:38 DDEBUG Cleaning up.
+Jun 13 18:53:46 INFO --- logging initialized ---
+Jun 13 18:53:46 DDEBUG timer: config: 4 ms
+Jun 13 18:53:46 DEBUG cachedir: /var/cache/dnf
+Jun 13 18:53:46 DEBUG Loaded plugins: builddep, debuginfo-install, protected_packages, noroot, playground, langpacks, download, reposync, generate_completion_cache, Query, config-manager, needs-restarting, copr
+Jun 13 18:53:46 DEBUG Adding en_GB to language list
+Jun 13 18:53:46 DEBUG Error reading file : /var/lib/dnf/plugins/langpacks/installed_langpacks as it does not exist
+Jun 13 18:53:46 DEBUG initialized Langpacks plugin
+Jun 13 18:53:46 DEBUG DNF version: 1.1.3
+Jun 13 18:53:46 DDEBUG Command: dnf 
+Jun 13 18:53:46 DDEBUG Installroot: /
+Jun 13 18:53:46 DDEBUG Releasever: 23
+Jun 13 18:53:46 DDEBUG Base command: makecache
+Jun 13 18:53:46 DDEBUG Extra commands: ['timer']
+Jun 13 18:53:46 DEBUG Making cache files for all metadata files.
+Jun 13 18:53:46 INFO Metadata cache refreshed recently.
+Jun 13 18:53:46 DDEBUG Cleaning up.
+Jun 13 19:53:50 INFO --- logging initialized ---
+Jun 13 19:53:50 DDEBUG timer: config: 5 ms
+Jun 13 19:53:50 DEBUG cachedir: /var/cache/dnf
+Jun 13 19:53:50 DEBUG Loaded plugins: playground, debuginfo-install, download, builddep, copr, generate_completion_cache, config-manager, protected_packages, langpacks, reposync, needs-restarting, noroot, Query
+Jun 13 19:53:50 DEBUG Adding en_GB to language list
+Jun 13 19:53:50 DEBUG Error reading file : /var/lib/dnf/plugins/langpacks/installed_langpacks as it does not exist
+Jun 13 19:53:50 DEBUG initialized Langpacks plugin
+Jun 13 19:53:50 DEBUG DNF version: 1.1.3
+Jun 13 19:53:50 DDEBUG Command: dnf 
+Jun 13 19:53:50 DDEBUG Installroot: /
+Jun 13 19:53:50 DDEBUG Releasever: 23
+Jun 13 19:53:50 DDEBUG Base command: makecache
+Jun 13 19:53:50 DDEBUG Extra commands: ['timer']
+Jun 13 19:53:50 DEBUG Making cache files for all metadata files.
+Jun 13 19:53:50 INFO Metadata cache refreshed recently.
+Jun 13 19:53:50 DDEBUG Cleaning up.
+Jun 13 20:53:53 INFO --- logging initialized ---
+Jun 13 20:53:53 DDEBUG timer: config: 4 ms
+Jun 13 20:53:53 DEBUG cachedir: /var/cache/dnf
+Jun 13 20:53:53 DEBUG Loaded plugins: protected_packages, reposync, copr, debuginfo-install, download, noroot, needs-restarting, langpacks, playground, config-manager, builddep, generate_completion_cache, Query
+Jun 13 20:53:53 DEBUG Adding en_GB to language list
+Jun 13 20:53:53 DEBUG Error reading file : /var/lib/dnf/plugins/langpacks/installed_langpacks as it does not exist
+Jun 13 20:53:53 DEBUG initialized Langpacks plugin
+Jun 13 20:53:53 DEBUG DNF version: 1.1.3
+Jun 13 20:53:53 DDEBUG Command: dnf 
+Jun 13 20:53:53 DDEBUG Installroot: /
+Jun 13 20:53:53 DDEBUG Releasever: 23
+Jun 13 20:53:53 DDEBUG Base command: makecache
+Jun 13 20:53:53 DDEBUG Extra commands: ['timer']
+Jun 13 20:53:53 DEBUG Making cache files for all metadata files.
+Jun 13 20:53:53 DEBUG fedora: will expire after 1975301 seconds.
+Jun 13 20:53:53 DEBUG updates: metadata will expire after 10666 seconds and will be refreshed now
+Jun 13 20:53:53 DEBUG repo: using cache for: fedora
+Jun 13 20:53:53 DEBUG not found deltainfo for: Fedora 23 - x86_64
+Jun 13 20:53:53 DEBUG not found updateinfo for: Fedora 23 - x86_64
+Jun 13 20:53:54 DEBUG reviving: 'updates' can be revived.
+Jun 13 20:53:54 DDEBUG timer: sack setup: 952 ms
+Jun 13 20:53:54 INFO Metadata cache created.
+Jun 13 20:53:54 DDEBUG Cleaning up.
+Jun 13 21:53:56 INFO --- logging initialized ---
+Jun 13 21:53:56 DDEBUG timer: config: 4 ms
+Jun 13 21:53:56 DEBUG cachedir: /var/cache/dnf
+Jun 13 21:53:56 DEBUG Loaded plugins: noroot, playground, needs-restarting, protected_packages, Query, download, langpacks, generate_completion_cache, reposync, debuginfo-install, config-manager, builddep, copr
+Jun 13 21:53:56 DEBUG Adding en_GB to language list
+Jun 13 21:53:56 DEBUG Error reading file : /var/lib/dnf/plugins/langpacks/installed_langpacks as it does not exist
+Jun 13 21:53:56 DEBUG initialized Langpacks plugin
+Jun 13 21:53:56 DEBUG DNF version: 1.1.3
+Jun 13 21:53:56 DDEBUG Command: dnf 
+Jun 13 21:53:56 DDEBUG Installroot: /
+Jun 13 21:53:56 DDEBUG Releasever: 23
+Jun 13 21:53:56 DDEBUG Base command: makecache
+Jun 13 21:53:56 DDEBUG Extra commands: ['timer']
+Jun 13 21:53:56 DEBUG Making cache files for all metadata files.
+Jun 13 21:53:56 INFO Metadata cache refreshed recently.
+Jun 13 21:53:56 DDEBUG Cleaning up.
+Jun 13 22:53:56 INFO --- logging initialized ---
+Jun 13 22:53:56 DDEBUG timer: config: 4 ms
+Jun 13 22:53:56 DEBUG cachedir: /var/cache/dnf
+Jun 13 22:53:56 DEBUG Loaded plugins: debuginfo-install, config-manager, noroot, playground, Query, copr, reposync, needs-restarting, generate_completion_cache, download, builddep, protected_packages, langpacks
+Jun 13 22:53:56 DEBUG Adding en_GB to language list
+Jun 13 22:53:56 DEBUG Error reading file : /var/lib/dnf/plugins/langpacks/installed_langpacks as it does not exist
+Jun 13 22:53:56 DEBUG initialized Langpacks plugin
+Jun 13 22:53:56 DEBUG DNF version: 1.1.3
+Jun 13 22:53:56 DDEBUG Command: dnf 
+Jun 13 22:53:56 DDEBUG Installroot: /
+Jun 13 22:53:56 DDEBUG Releasever: 23
+Jun 13 22:53:56 DDEBUG Base command: makecache
+Jun 13 22:53:56 DDEBUG Extra commands: ['timer']
+Jun 13 22:53:56 DEBUG Making cache files for all metadata files.
+Jun 13 22:53:56 INFO Metadata cache refreshed recently.
+Jun 13 22:53:56 DDEBUG Cleaning up.
+Jun 13 23:54:03 INFO --- logging initialized ---
+Jun 13 23:54:03 DDEBUG timer: config: 4 ms
+Jun 13 23:54:03 DEBUG cachedir: /var/cache/dnf
+Jun 13 23:54:03 DEBUG Loaded plugins: protected_packages, noroot, playground, builddep, needs-restarting, Query, copr, reposync, generate_completion_cache, config-manager, debuginfo-install, langpacks, download
+Jun 13 23:54:03 DEBUG Adding en_GB to language list
+Jun 13 23:54:03 DEBUG Error reading file : /var/lib/dnf/plugins/langpacks/installed_langpacks as it does not exist
+Jun 13 23:54:03 DEBUG initialized Langpacks plugin
+Jun 13 23:54:03 DEBUG DNF version: 1.1.3
+Jun 13 23:54:03 DDEBUG Command: dnf 
+Jun 13 23:54:03 DDEBUG Installroot: /
+Jun 13 23:54:03 DDEBUG Releasever: 23
+Jun 13 23:54:03 DDEBUG Base command: makecache
+Jun 13 23:54:03 DDEBUG Extra commands: ['timer']
+Jun 13 23:54:03 DEBUG Making cache files for all metadata files.
+Jun 13 23:54:03 DEBUG updates: metadata will expire after 10791 seconds and will be refreshed now
+Jun 13 23:54:03 DEBUG fedora: will expire after 1964491 seconds.
+Jun 13 23:54:03 DEBUG reviving: 'updates' can be revived.
+Jun 13 23:54:03 DEBUG repo: using cache for: fedora
+Jun 13 23:54:03 DEBUG not found deltainfo for: Fedora 23 - x86_64
+Jun 13 23:54:03 DEBUG not found updateinfo for: Fedora 23 - x86_64
+Jun 13 23:54:04 DDEBUG timer: sack setup: 1096 ms
+Jun 13 23:54:04 INFO Metadata cache created.
+Jun 13 23:54:04 DDEBUG Cleaning up.
+Jun 14 00:54:09 INFO --- logging initialized ---
+Jun 14 00:54:09 DDEBUG timer: config: 5 ms
+Jun 14 00:54:09 DEBUG cachedir: /var/cache/dnf
+Jun 14 00:54:09 DEBUG Loaded plugins: noroot, langpacks, copr, debuginfo-install, protected_packages, download, config-manager, Query, builddep, playground, needs-restarting, generate_completion_cache, reposync
+Jun 14 00:54:09 DEBUG Adding en_GB to language list
+Jun 14 00:54:09 DEBUG Error reading file : /var/lib/dnf/plugins/langpacks/installed_langpacks as it does not exist
+Jun 14 00:54:09 DEBUG initialized Langpacks plugin
+Jun 14 00:54:09 DEBUG DNF version: 1.1.3
+Jun 14 00:54:09 DDEBUG Command: dnf 
+Jun 14 00:54:09 DDEBUG Installroot: /
+Jun 14 00:54:09 DDEBUG Releasever: 23
+Jun 14 00:54:09 DDEBUG Base command: makecache
+Jun 14 00:54:09 DDEBUG Extra commands: ['timer']
+Jun 14 00:54:09 DEBUG Making cache files for all metadata files.
+Jun 14 00:54:09 INFO Metadata cache refreshed recently.
+Jun 14 00:54:09 DDEBUG Cleaning up.
+Jun 14 01:54:14 INFO --- logging initialized ---
+Jun 14 01:54:14 DDEBUG timer: config: 4 ms
+Jun 14 01:54:14 DEBUG cachedir: /var/cache/dnf
+Jun 14 01:54:14 DEBUG Loaded plugins: noroot, needs-restarting, langpacks, Query, playground, config-manager, reposync, debuginfo-install, protected_packages, download, copr, builddep, generate_completion_cache
+Jun 14 01:54:14 DEBUG Adding en_GB to language list
+Jun 14 01:54:14 DEBUG Error reading file : /var/lib/dnf/plugins/langpacks/installed_langpacks as it does not exist
+Jun 14 01:54:14 DEBUG initialized Langpacks plugin
+Jun 14 01:54:14 DEBUG DNF version: 1.1.3
+Jun 14 01:54:14 DDEBUG Command: dnf 
+Jun 14 01:54:14 DDEBUG Installroot: /
+Jun 14 01:54:14 DDEBUG Releasever: 23
+Jun 14 01:54:14 DDEBUG Base command: makecache
+Jun 14 01:54:14 DDEBUG Extra commands: ['timer']
+Jun 14 01:54:14 DEBUG Making cache files for all metadata files.
+Jun 14 01:54:14 INFO Metadata cache refreshed recently.
+Jun 14 01:54:14 DDEBUG Cleaning up.
+Jun 14 02:54:18 INFO --- logging initialized ---
+Jun 14 02:54:18 DDEBUG timer: config: 4 ms
+Jun 14 02:54:18 DEBUG cachedir: /var/cache/dnf
+Jun 14 02:54:18 DEBUG Loaded plugins: needs-restarting, playground, debuginfo-install, copr, protected_packages, langpacks, Query, config-manager, noroot, builddep, generate_completion_cache, download, reposync
+Jun 14 02:54:18 DEBUG Adding en_GB to language list
+Jun 14 02:54:18 DEBUG Error reading file : /var/lib/dnf/plugins/langpacks/installed_langpacks as it does not exist
+Jun 14 02:54:18 DEBUG initialized Langpacks plugin
+Jun 14 02:54:18 DEBUG DNF version: 1.1.3
+Jun 14 02:54:18 DDEBUG Command: dnf 
+Jun 14 02:54:18 DDEBUG Installroot: /
+Jun 14 02:54:18 DDEBUG Releasever: 23
+Jun 14 02:54:18 DDEBUG Base command: makecache
+Jun 14 02:54:18 DDEBUG Extra commands: ['timer']
+Jun 14 02:54:18 DEBUG Making cache files for all metadata files.
+Jun 14 02:54:18 DEBUG updates: metadata will expire after 10784 seconds and will be refreshed now
+Jun 14 02:54:18 DEBUG fedora: will expire after 1953675 seconds.
+Jun 14 02:54:19 DEBUG reviving: 'updates' can be revived.
+Jun 14 02:54:19 DEBUG repo: using cache for: fedora
+Jun 14 02:54:19 DEBUG not found deltainfo for: Fedora 23 - x86_64
+Jun 14 02:54:19 DEBUG not found updateinfo for: Fedora 23 - x86_64
+Jun 14 02:54:19 DDEBUG timer: sack setup: 849 ms
+Jun 14 02:54:19 INFO Metadata cache created.
+Jun 14 02:54:19 DDEBUG Cleaning up.
+Jun 14 03:54:22 INFO --- logging initialized ---
+Jun 14 03:54:22 DDEBUG timer: config: 4 ms
+Jun 14 03:54:22 DEBUG cachedir: /var/cache/dnf
+Jun 14 03:54:22 DEBUG Loaded plugins: reposync, langpacks, generate_completion_cache, protected_packages, Query, debuginfo-install, playground, needs-restarting, config-manager, copr, builddep, download, noroot
+Jun 14 03:54:22 DEBUG Adding en_GB to language list
+Jun 14 03:54:22 DEBUG Error reading file : /var/lib/dnf/plugins/langpacks/installed_langpacks as it does not exist
+Jun 14 03:54:22 DEBUG initialized Langpacks plugin
+Jun 14 03:54:22 DEBUG DNF version: 1.1.3
+Jun 14 03:54:22 DDEBUG Command: dnf 
+Jun 14 03:54:22 DDEBUG Installroot: /
+Jun 14 03:54:22 DDEBUG Releasever: 23
+Jun 14 03:54:22 DDEBUG Base command: makecache
+Jun 14 03:54:22 DDEBUG Extra commands: ['timer']
+Jun 14 03:54:22 DEBUG Making cache files for all metadata files.
+Jun 14 03:54:22 INFO Metadata cache refreshed recently.
+Jun 14 03:54:22 DDEBUG Cleaning up.
+Jun 14 04:54:27 INFO --- logging initialized ---
+Jun 14 04:54:27 DDEBUG timer: config: 4 ms
+Jun 14 04:54:27 DEBUG cachedir: /var/cache/dnf
+Jun 14 04:54:27 DEBUG Loaded plugins: playground, langpacks, protected_packages, copr, config-manager, download, debuginfo-install, Query, reposync, needs-restarting, builddep, generate_completion_cache, noroot
+Jun 14 04:54:27 DEBUG Adding en_GB to language list
+Jun 14 04:54:27 DEBUG Error reading file : /var/lib/dnf/plugins/langpacks/installed_langpacks as it does not exist
+Jun 14 04:54:27 DEBUG initialized Langpacks plugin
+Jun 14 04:54:27 DEBUG DNF version: 1.1.3
+Jun 14 04:54:27 DDEBUG Command: dnf 
+Jun 14 04:54:27 DDEBUG Installroot: /
+Jun 14 04:54:27 DDEBUG Releasever: 23
+Jun 14 04:54:27 DDEBUG Base command: makecache
+Jun 14 04:54:27 DDEBUG Extra commands: ['timer']
+Jun 14 04:54:27 DEBUG Making cache files for all metadata files.
+Jun 14 04:54:27 INFO Metadata cache refreshed recently.
+Jun 14 04:54:27 DDEBUG Cleaning up.
+Jun 14 05:54:31 INFO --- logging initialized ---
+Jun 14 05:54:31 DDEBUG timer: config: 4 ms
+Jun 14 05:54:31 DEBUG cachedir: /var/cache/dnf
+Jun 14 05:54:31 DEBUG Loaded plugins: langpacks, Query, playground, needs-restarting, copr, download, reposync, generate_completion_cache, noroot, protected_packages, debuginfo-install, config-manager, builddep
+Jun 14 05:54:31 DEBUG Adding en_GB to language list
+Jun 14 05:54:31 DEBUG Error reading file : /var/lib/dnf/plugins/langpacks/installed_langpacks as it does not exist
+Jun 14 05:54:31 DEBUG initialized Langpacks plugin
+Jun 14 05:54:31 DEBUG DNF version: 1.1.3
+Jun 14 05:54:31 DDEBUG Command: dnf 
+Jun 14 05:54:31 DDEBUG Installroot: /
+Jun 14 05:54:31 DDEBUG Releasever: 23
+Jun 14 05:54:31 DDEBUG Base command: makecache
+Jun 14 05:54:31 DDEBUG Extra commands: ['timer']
+Jun 14 05:54:31 DEBUG Making cache files for all metadata files.
+Jun 14 05:54:31 DEBUG fedora: will expire after 1942862 seconds.
+Jun 14 05:54:31 DEBUG updates: metadata will expire after 10787 seconds and will be refreshed now
+Jun 14 05:54:31 DEBUG repo: using cache for: fedora
+Jun 14 05:54:31 DEBUG not found deltainfo for: Fedora 23 - x86_64
+Jun 14 05:54:31 DEBUG not found updateinfo for: Fedora 23 - x86_64
+Jun 14 05:54:32 DEBUG reviving: 'updates' can be revived.
+Jun 14 05:54:32 DDEBUG timer: sack setup: 864 ms
+Jun 14 05:54:32 INFO Metadata cache created.
+Jun 14 05:54:32 DDEBUG Cleaning up.
+Jun 14 06:54:33 INFO --- logging initialized ---
+Jun 14 06:54:33 DDEBUG timer: config: 3 ms
+Jun 14 06:54:33 DEBUG cachedir: /var/cache/dnf
+Jun 14 06:54:33 DEBUG Loaded plugins: builddep, playground, Query, generate_completion_cache, protected_packages, download, config-manager, debuginfo-install, noroot, copr, langpacks, needs-restarting, reposync
+Jun 14 06:54:33 DEBUG Adding en_GB to language list
+Jun 14 06:54:33 DEBUG Error reading file : /var/lib/dnf/plugins/langpacks/installed_langpacks as it does not exist
+Jun 14 06:54:33 DEBUG initialized Langpacks plugin
+Jun 14 06:54:33 DEBUG DNF version: 1.1.3
+Jun 14 06:54:33 DDEBUG Command: dnf 
+Jun 14 06:54:33 DDEBUG Installroot: /
+Jun 14 06:54:33 DDEBUG Releasever: 23
+Jun 14 06:54:33 DDEBUG Base command: makecache
+Jun 14 06:54:33 DDEBUG Extra commands: ['timer']
+Jun 14 06:54:33 DEBUG Making cache files for all metadata files.
+Jun 14 06:54:33 INFO Metadata cache refreshed recently.
+Jun 14 06:54:33 DDEBUG Cleaning up.
+Jun 14 07:54:41 INFO --- logging initialized ---
+Jun 14 07:54:41 DDEBUG timer: config: 4 ms
+Jun 14 07:54:41 DEBUG cachedir: /var/cache/dnf
+Jun 14 07:54:41 DEBUG Loaded plugins: builddep, reposync, protected_packages, debuginfo-install, config-manager, noroot, copr, Query, langpacks, playground, generate_completion_cache, download, needs-restarting
+Jun 14 07:54:41 DEBUG Adding en_GB to language list
+Jun 14 07:54:41 DEBUG Error reading file : /var/lib/dnf/plugins/langpacks/installed_langpacks as it does not exist
+Jun 14 07:54:41 DEBUG initialized Langpacks plugin
+Jun 14 07:54:41 DEBUG DNF version: 1.1.3
+Jun 14 07:54:41 DDEBUG Command: dnf 
+Jun 14 07:54:41 DDEBUG Installroot: /
+Jun 14 07:54:41 DDEBUG Releasever: 23
+Jun 14 07:54:41 DDEBUG Base command: makecache
+Jun 14 07:54:41 DDEBUG Extra commands: ['timer']
+Jun 14 07:54:41 DEBUG Making cache files for all metadata files.
+Jun 14 07:54:41 INFO Metadata cache refreshed recently.
+Jun 14 07:54:41 DDEBUG Cleaning up.
+Jun 14 08:54:45 INFO --- logging initialized ---
+Jun 14 08:54:45 DDEBUG timer: config: 4 ms
+Jun 14 08:54:45 DEBUG cachedir: /var/cache/dnf
+Jun 14 08:54:45 DEBUG Loaded plugins: builddep, debuginfo-install, needs-restarting, langpacks, generate_completion_cache, reposync, download, config-manager, copr, protected_packages, noroot, playground, Query
+Jun 14 08:54:45 DEBUG Adding en_GB to language list
+Jun 14 08:54:45 DEBUG Error reading file : /var/lib/dnf/plugins/langpacks/installed_langpacks as it does not exist
+Jun 14 08:54:45 DEBUG initialized Langpacks plugin
+Jun 14 08:54:45 DEBUG DNF version: 1.1.3
+Jun 14 08:54:45 DDEBUG Command: dnf 
+Jun 14 08:54:45 DDEBUG Installroot: /
+Jun 14 08:54:45 DDEBUG Releasever: 23
+Jun 14 08:54:45 DDEBUG Base command: makecache
+Jun 14 08:54:45 DDEBUG Extra commands: ['timer']
+Jun 14 08:54:45 DEBUG Making cache files for all metadata files.
+Jun 14 08:54:45 DEBUG fedora: will expire after 1932048 seconds.
+Jun 14 08:54:45 DEBUG updates: metadata will expire after 10786 seconds and will be refreshed now
+Jun 14 08:54:45 DEBUG repo: using cache for: fedora
+Jun 14 08:54:45 DEBUG not found deltainfo for: Fedora 23 - x86_64
+Jun 14 08:54:45 DEBUG not found updateinfo for: Fedora 23 - x86_64
+Jun 14 08:54:46 DEBUG reviving: 'updates' can be revived.
+Jun 14 08:54:46 DDEBUG timer: sack setup: 838 ms
+Jun 14 08:54:46 INFO Metadata cache created.
+Jun 14 08:54:46 DDEBUG Cleaning up.
+Jun 14 09:54:47 INFO --- logging initialized ---
+Jun 14 09:54:47 DDEBUG timer: config: 4 ms
+Jun 14 09:54:47 DEBUG cachedir: /var/cache/dnf
+Jun 14 09:54:47 DEBUG Loaded plugins: Query, builddep, langpacks, download, debuginfo-install, protected_packages, noroot, reposync, playground, config-manager, needs-restarting, copr, generate_completion_cache
+Jun 14 09:54:47 DEBUG Adding en_GB to language list
+Jun 14 09:54:47 DEBUG Error reading file : /var/lib/dnf/plugins/langpacks/installed_langpacks as it does not exist
+Jun 14 09:54:47 DEBUG initialized Langpacks plugin
+Jun 14 09:54:47 DEBUG DNF version: 1.1.3
+Jun 14 09:54:47 DDEBUG Command: dnf 
+Jun 14 09:54:47 DDEBUG Installroot: /
+Jun 14 09:54:47 DDEBUG Releasever: 23
+Jun 14 09:54:47 DDEBUG Base command: makecache
+Jun 14 09:54:47 DDEBUG Extra commands: ['timer']
+Jun 14 09:54:47 DEBUG Making cache files for all metadata files.
+Jun 14 09:54:47 INFO Metadata cache refreshed recently.
+Jun 14 09:54:47 DDEBUG Cleaning up.
+Jun 14 10:54:50 INFO --- logging initialized ---
+Jun 14 10:54:50 DDEBUG timer: config: 4 ms
+Jun 14 10:54:50 DEBUG cachedir: /var/cache/dnf
+Jun 14 10:54:50 DEBUG Loaded plugins: generate_completion_cache, download, langpacks, builddep, Query, debuginfo-install, reposync, playground, config-manager, protected_packages, noroot, copr, needs-restarting
+Jun 14 10:54:50 DEBUG Adding en_GB to language list
+Jun 14 10:54:50 DEBUG Error reading file : /var/lib/dnf/plugins/langpacks/installed_langpacks as it does not exist
+Jun 14 10:54:50 DEBUG initialized Langpacks plugin
+Jun 14 10:54:50 DEBUG DNF version: 1.1.3
+Jun 14 10:54:50 DDEBUG Command: dnf 
+Jun 14 10:54:50 DDEBUG Installroot: /
+Jun 14 10:54:50 DDEBUG Releasever: 23
+Jun 14 10:54:50 DDEBUG Base command: makecache
+Jun 14 10:54:50 DDEBUG Extra commands: ['timer']
+Jun 14 10:54:50 DEBUG Making cache files for all metadata files.
+Jun 14 10:54:50 INFO Metadata cache refreshed recently.
+Jun 14 10:54:50 DDEBUG Cleaning up.
+Jun 14 11:54:53 INFO --- logging initialized ---
+Jun 14 11:54:53 DDEBUG timer: config: 4 ms
+Jun 14 11:54:53 DEBUG cachedir: /var/cache/dnf
+Jun 14 11:54:53 DEBUG Loaded plugins: reposync, config-manager, generate_completion_cache, Query, needs-restarting, langpacks, protected_packages, download, noroot, debuginfo-install, playground, copr, builddep
+Jun 14 11:54:53 DEBUG Adding en_GB to language list
+Jun 14 11:54:53 DEBUG Error reading file : /var/lib/dnf/plugins/langpacks/installed_langpacks as it does not exist
+Jun 14 11:54:53 DEBUG initialized Langpacks plugin
+Jun 14 11:54:53 DEBUG DNF version: 1.1.3
+Jun 14 11:54:53 DDEBUG Command: dnf 
+Jun 14 11:54:53 DDEBUG Installroot: /
+Jun 14 11:54:53 DDEBUG Releasever: 23
+Jun 14 11:54:53 DDEBUG Base command: makecache
+Jun 14 11:54:53 DDEBUG Extra commands: ['timer']
+Jun 14 11:54:53 DEBUG Making cache files for all metadata files.
+Jun 14 11:54:53 DEBUG fedora: will expire after 1921240 seconds.
+Jun 14 11:54:53 DEBUG updates: metadata will expire after 10792 seconds and will be refreshed now
+Jun 14 11:54:53 DEBUG repo: using cache for: fedora
+Jun 14 11:54:53 DEBUG not found deltainfo for: Fedora 23 - x86_64
+Jun 14 11:54:53 DEBUG not found updateinfo for: Fedora 23 - x86_64
+Jun 14 11:54:54 DEBUG reviving: 'updates' can be revived.
+Jun 14 11:54:54 DDEBUG timer: sack setup: 946 ms
+Jun 14 11:54:54 INFO Metadata cache created.
+Jun 14 11:54:54 DDEBUG Cleaning up.
+Jun 14 12:54:56 INFO --- logging initialized ---
+Jun 14 12:54:56 DDEBUG timer: config: 4 ms
+Jun 14 12:54:56 DEBUG cachedir: /var/cache/dnf
+Jun 14 12:54:56 DEBUG Loaded plugins: langpacks, playground, noroot, copr, debuginfo-install, reposync, config-manager, builddep, generate_completion_cache, protected_packages, Query, needs-restarting, download
+Jun 14 12:54:56 DEBUG Adding en_GB to language list
+Jun 14 12:54:56 DEBUG Error reading file : /var/lib/dnf/plugins/langpacks/installed_langpacks as it does not exist
+Jun 14 12:54:56 DEBUG initialized Langpacks plugin
+Jun 14 12:54:56 DEBUG DNF version: 1.1.3
+Jun 14 12:54:56 DDEBUG Command: dnf 
+Jun 14 12:54:56 DDEBUG Installroot: /
+Jun 14 12:54:56 DDEBUG Releasever: 23
+Jun 14 12:54:56 DDEBUG Base command: makecache
+Jun 14 12:54:56 DDEBUG Extra commands: ['timer']
+Jun 14 12:54:56 DEBUG Making cache files for all metadata files.
+Jun 14 12:54:56 INFO Metadata cache refreshed recently.
+Jun 14 12:54:56 DDEBUG Cleaning up.
+Jun 14 13:57:12 INFO --- logging initialized ---
+Jun 14 13:57:12 DDEBUG timer: config: 272 ms
+Jun 14 13:57:12 DEBUG cachedir: /var/cache/dnf
+Jun 14 13:57:13 DEBUG Loaded plugins: noroot, needs-restarting, protected_packages, playground, builddep, debuginfo-install, reposync, config-manager, copr, generate_completion_cache, Query, download, langpacks
+Jun 14 13:57:13 DEBUG Adding en_GB to language list
+Jun 14 13:57:13 DEBUG Error reading file : /var/lib/dnf/plugins/langpacks/installed_langpacks as it does not exist
+Jun 14 13:57:13 DEBUG initialized Langpacks plugin
+Jun 14 13:57:13 DEBUG DNF version: 1.1.3
+Jun 14 13:57:13 DDEBUG Command: dnf 
+Jun 14 13:57:13 DDEBUG Installroot: /
+Jun 14 13:57:13 DDEBUG Releasever: 23
+Jun 14 13:57:13 DDEBUG Base command: makecache
+Jun 14 13:57:13 DDEBUG Extra commands: ['timer']
+Jun 14 13:57:13 DEBUG Making cache files for all metadata files.
+Jun 14 13:57:13 INFO Metadata cache refreshed recently.
+Jun 14 13:57:13 DDEBUG Cleaning up.
+Jun 14 14:15:10 INFO --- logging initialized ---
+Jun 14 14:15:10 DDEBUG timer: config: 7 ms
+Jun 14 14:15:10 DEBUG cachedir: /var/cache/dnf
+Jun 14 14:15:10 DEBUG Loaded plugins: copr, langpacks, generate_completion_cache, config-manager, Query, protected_packages, download, noroot, reposync, builddep, needs-restarting, playground, debuginfo-install
+Jun 14 14:15:10 DEBUG Adding en_GB to language list
+Jun 14 14:15:10 DEBUG Error reading file : /var/lib/dnf/plugins/langpacks/installed_langpacks as it does not exist
+Jun 14 14:15:10 DEBUG initialized Langpacks plugin
+Jun 14 14:15:10 DEBUG DNF version: 1.1.3
+Jun 14 14:15:10 DDEBUG Command: dnf 
+Jun 14 14:15:10 DDEBUG Installroot: /
+Jun 14 14:15:10 DDEBUG Releasever: 23
+Jun 14 14:15:10 DDEBUG Base command: install
+Jun 14 14:15:10 DDEBUG Extra commands: ['vim']
+Jun 14 14:15:10 DEBUG repo: using cache for: fedora
+Jun 14 14:15:10 DEBUG not found deltainfo for: Fedora 23 - x86_64
+Jun 14 14:15:10 DEBUG not found updateinfo for: Fedora 23 - x86_64
+Jun 14 14:15:15 DEBUG repo: using cache for: updates
+Jun 14 14:15:18 DDEBUG timer: sack setup: 7298 ms
+Jun 14 14:15:18 DEBUG fedora: using metadata from Sat Oct 31 17:34:41 2015.
+Jun 14 14:15:18 DEBUG updates: using metadata from Tue Dec 20 07:57:52 2016.
+Jun 14 14:15:18 INFO Last metadata expiration check performed 2:20:23 ago on Wed Jun 14 11:54:54 2017.
+Jun 14 14:15:18 DEBUG --> Starting dependency resolution
+Jun 14 14:15:18 DEBUG ---> Package vim-enhanced.x86_64 2:7.4.1868-1.fc23 will be installed
+Jun 14 14:15:18 DEBUG ---> Package gpm-libs.x86_64 1.20.7-7.fc23 will be installed
+Jun 14 14:15:18 DEBUG ---> Package vim-common.x86_64 2:7.4.1868-1.fc23 will be installed
+Jun 14 14:15:18 DEBUG ---> Package vim-filesystem.x86_64 2:7.4.1868-1.fc23 will be installed
+Jun 14 14:15:18 DEBUG --> Finished dependency resolution
+Jun 14 14:15:18 DDEBUG timer: depsolve: 7 ms
+Jun 14 14:15:18 INFO Dependencies resolved.
+Jun 14 14:15:18 DEBUG langpacks: enabled languages are ['en_GB']
+Jun 14 14:15:19 INFO ================================================================================================================================================================
+ Package                                  Arch                             Version                                      Repository                         Size
+================================================================================================================================================================
+Installing:
+ gpm-libs                                 x86_64                           1.20.7-7.fc23                                fedora                             36 k
+ vim-common                               x86_64                           2:7.4.1868-1.fc23                            updates                           6.3 M
+ vim-enhanced                             x86_64                           2:7.4.1868-1.fc23                            updates                           1.2 M
+ vim-filesystem                           x86_64                           2:7.4.1868-1.fc23                            updates                            29 k
+
+Transaction Summary
+================================================================================================================================================================
+Install  4 Packages
+
+Jun 14 14:15:19 INFO Total download size: 7.6 M
+Jun 14 14:15:19 INFO Installed size: 29 M
+Jun 14 14:15:19 INFO Downloading Packages:
+Jun 14 14:15:20 SUBDEBUG Call: RPMPayload._end_cb: (<dnf.repo.RPMPayload object at 0x7f2b82023a90>, 0, None), {}
+Jun 14 14:15:20 SUBDEBUG Call: RPMPayload._end_cb: (<dnf.repo.RPMPayload object at 0x7f2b82023a58>, 0, None), {}
+Jun 14 14:15:20 SUBDEBUG Call: RPMPayload._end_cb: (<dnf.repo.RPMPayload object at 0x7f2b82023b70>, 0, None), {}
+Jun 14 14:15:22 SUBDEBUG Call: RPMPayload._end_cb: (<dnf.repo.RPMPayload object at 0x7f2b82023a20>, 0, None), {}
+Jun 14 14:15:22 INFO ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+Jun 14 14:15:22 INFO Total                                                                                                                           2.6 MB/s | 7.6 MB     00:02     
+Jun 14 14:15:22 INFO Running transaction check
+Jun 14 14:15:22 INFO Transaction check succeeded.
+Jun 14 14:15:22 INFO Running transaction test
+Jun 14 14:15:24 DDEBUG Cleaning up.
+Jun 14 14:15:24 INFO The downloaded packages were saved in cache till the next successful transaction.
+Jun 14 14:15:24 INFO You can remove cached packages by executing 'dnf clean packages'.
+Jun 14 14:15:24 SUBDEBUG 
+Traceback (most recent call last):
+  File "/usr/lib/python3.4/site-packages/dnf/cli/main.py", line 84, in main
+    return _main(base, args)
+  File "/usr/lib/python3.4/site-packages/dnf/cli/main.py", line 144, in _main
+    ret = resolving(cli, base)
+  File "/usr/lib/python3.4/site-packages/dnf/cli/main.py", line 173, in resolving
+    base.do_transaction(display=displays)
+  File "/usr/lib/python3.4/site-packages/dnf/cli/cli.py", line 228, in do_transaction
+    super(BaseCli, self).do_transaction(display)
+  File "/usr/lib/python3.4/site-packages/dnf/base.py", line 588, in do_transaction
+    self._trans_error_summary(errstring))
+dnf.exceptions.Error: Transaction check error:
+  file /usr/share/man/man1/vim.1.gz from install of vim-common-2:7.4.1868-1.fc23.x86_64 conflicts with file from package vim-minimal-2:7.4.827-1.fc23.x86_64
+
+Error Summary
+-------------
+
+Jun 14 14:15:24 CRITICAL Error: Transaction check error:
+  file /usr/share/man/man1/vim.1.gz from install of vim-common-2:7.4.1868-1.fc23.x86_64 conflicts with file from package vim-minimal-2:7.4.827-1.fc23.x86_64
+
+Error Summary
+-------------
+
+Jun 14 14:57:19 INFO --- logging initialized ---
+Jun 14 14:57:19 DDEBUG timer: config: 4 ms
+Jun 14 14:57:19 DEBUG cachedir: /var/cache/dnf
+Jun 14 14:57:19 DEBUG Loaded plugins: protected_packages, reposync, config-manager, debuginfo-install, download, needs-restarting, Query, playground, copr, langpacks, builddep, noroot, generate_completion_cache
+Jun 14 14:57:19 DEBUG Adding en_GB to language list
+Jun 14 14:57:19 DEBUG Error reading file : /var/lib/dnf/plugins/langpacks/installed_langpacks as it does not exist
+Jun 14 14:57:19 DEBUG initialized Langpacks plugin
+Jun 14 14:57:19 DEBUG DNF version: 1.1.3
+Jun 14 14:57:19 DDEBUG Command: dnf 
+Jun 14 14:57:19 DDEBUG Installroot: /
+Jun 14 14:57:19 DDEBUG Releasever: 23
+Jun 14 14:57:19 DDEBUG Base command: makecache
+Jun 14 14:57:19 DDEBUG Extra commands: ['timer']
+Jun 14 14:57:19 DEBUG Making cache files for all metadata files.
+Jun 14 14:57:19 DEBUG fedora: will expire after 1910294 seconds.
+Jun 14 14:57:19 DEBUG updates: metadata will expire after 10655 seconds and will be refreshed now
+Jun 14 14:57:19 DEBUG repo: using cache for: fedora
+Jun 14 14:57:19 DEBUG not found deltainfo for: Fedora 23 - x86_64
+Jun 14 14:57:19 DEBUG not found updateinfo for: Fedora 23 - x86_64
+Jun 14 14:57:40 DDEBUG Cleaning up.
+Jun 14 14:57:40 SUBDEBUG 
+Traceback (most recent call last):
+  File "/usr/lib/python3.4/site-packages/dnf/repo.py", line 206, in perform
+    return super(_Handle, self).perform(result)
+  File "/usr/lib64/python3.4/site-packages/librepo/__init__.py", line 1425, in perform
+    _librepo.Handle.perform(self, result)
+librepo.LibrepoException: (8, "Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for https://mirrors.fedoraproject.org/metalink?repo=updates-released-f23&arch=x86_64 [Could not resolve host: mirrors.fedoraproject.org]", 'An Curl handle error')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.4/site-packages/dnf/repo.py", line 796, in load
+    if self._try_revive():
+  File "/usr/lib/python3.4/site-packages/dnf/repo.py", line 710, in _try_revive
+    handle.perform()
+  File "/usr/lib/python3.4/site-packages/dnf/repo.py", line 210, in perform
+    raise _DetailedLibrepoError(exc, source)
+dnf.repo._DetailedLibrepoError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.4/site-packages/dnf/cli/main.py", line 84, in main
+    return _main(base, args)
+  File "/usr/lib/python3.4/site-packages/dnf/cli/main.py", line 136, in _main
+    cli.run()
+  File "/usr/lib/python3.4/site-packages/dnf/cli/cli.py", line 1091, in run
+    return self.command.run(self.base.extcmds)
+  File "/usr/lib/python3.4/site-packages/dnf/cli/commands/makecache.py", line 87, in run
+    self.base.fill_sack() # performs the md sync
+  File "/usr/lib/python3.4/site-packages/dnf/base.py", line 249, in fill_sack
+    self._add_repo_to_sack(r.id)
+  File "/usr/lib/python3.4/site-packages/dnf/base.py", line 104, in _add_repo_to_sack
+    repo.load()
+  File "/usr/lib/python3.4/site-packages/dnf/repo.py", line 817, in load
+    raise dnf.exceptions.RepoError(msg)
+dnf.exceptions.RepoError: Failed to synchronize cache for repo 'updates' from 'https://mirrors.fedoraproject.org/metalink?repo=updates-released-f23&arch=x86_64': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for https://mirrors.fedoraproject.org/metalink?repo=updates-released-f23&arch=x86_64 [Could not resolve host: mirrors.fedoraproject.org]
+Jun 14 14:57:40 CRITICAL Error: Failed to synchronize cache for repo 'updates' from 'https://mirrors.fedoraproject.org/metalink?repo=updates-released-f23&arch=x86_64': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for https://mirrors.fedoraproject.org/metalink?repo=updates-released-f23&arch=x86_64 [Could not resolve host: mirrors.fedoraproject.org]
+Jun 14 15:51:43 INFO --- logging initialized ---
+Jun 14 15:51:43 DDEBUG timer: config: 4 ms
+Jun 14 15:51:43 DEBUG cachedir: /var/cache/dnf
+Jun 14 15:51:43 DEBUG Loaded plugins: debuginfo-install, needs-restarting, generate_completion_cache, reposync, playground, protected_packages, builddep, Query, noroot, config-manager, download, copr, langpacks
+Jun 14 15:51:43 DEBUG Adding en_GB to language list
+Jun 14 15:51:43 DEBUG Error reading file : /var/lib/dnf/plugins/langpacks/installed_langpacks as it does not exist
+Jun 14 15:51:43 DEBUG initialized Langpacks plugin
+Jun 14 15:51:43 DEBUG DNF version: 1.1.3
+Jun 14 15:51:43 DDEBUG Command: dnf 
+Jun 14 15:51:43 DDEBUG Installroot: /
+Jun 14 15:51:43 DDEBUG Releasever: 23
+Jun 14 15:51:43 DDEBUG Base command: install
+Jun 14 15:51:43 DDEBUG Extra commands: ['tmux']
+Jun 14 15:51:43 DEBUG repo: using cache for: fedora
+Jun 14 15:51:43 DEBUG not found deltainfo for: Fedora 23 - x86_64
+Jun 14 15:51:43 DEBUG not found updateinfo for: Fedora 23 - x86_64
+Jun 14 15:51:55 DDEBUG Cleaning up.
+Jun 14 16:08:14 INFO --- logging initialized ---
+Jun 14 16:08:14 DDEBUG timer: config: 88 ms
+Jun 14 16:08:14 DEBUG cachedir: /var/cache/dnf
+Jun 14 16:08:14 DEBUG Loaded plugins: playground, generate_completion_cache, download, noroot, reposync, needs-restarting, langpacks, builddep, config-manager, copr, Query, protected_packages, debuginfo-install
+Jun 14 16:08:14 DEBUG Adding en_GB to language list
+Jun 14 16:08:14 DEBUG Error reading file : /var/lib/dnf/plugins/langpacks/installed_langpacks as it does not exist
+Jun 14 16:08:14 DEBUG initialized Langpacks plugin
+Jun 14 16:08:14 DEBUG DNF version: 1.1.3
+Jun 14 16:08:14 DDEBUG Command: dnf 
+Jun 14 16:08:14 DDEBUG Installroot: /
+Jun 14 16:08:14 DDEBUG Releasever: 23
+Jun 14 16:08:14 DDEBUG Base command: makecache
+Jun 14 16:08:14 DDEBUG Extra commands: ['timer']
+Jun 14 16:08:14 DEBUG Making cache files for all metadata files.
+Jun 14 16:08:14 INFO Metadata cache refreshed recently.
+Jun 14 16:08:14 DDEBUG Cleaning up.
+Jun 14 16:10:28 INFO --- logging initialized ---
+Jun 14 16:10:28 DDEBUG timer: config: 4 ms
+Jun 14 16:10:28 DEBUG cachedir: /var/cache/dnf
+Jun 14 16:10:28 DEBUG Loaded plugins: reposync, builddep, debuginfo-install, Query, download, config-manager, protected_packages, copr, generate_completion_cache, langpacks, noroot, playground, needs-restarting
+Jun 14 16:10:28 DEBUG Adding en_GB to language list
+Jun 14 16:10:28 DEBUG Error reading file : /var/lib/dnf/plugins/langpacks/installed_langpacks as it does not exist
+Jun 14 16:10:28 DEBUG initialized Langpacks plugin
+Jun 14 16:10:28 DEBUG DNF version: 1.1.3
+Jun 14 16:10:28 DDEBUG Command: dnf 
+Jun 14 16:10:28 DDEBUG Installroot: /
+Jun 14 16:10:28 DDEBUG Releasever: 23
+Jun 14 16:10:28 DDEBUG Base command: install
+Jun 14 16:10:28 DDEBUG Extra commands: ['tmux']
+Jun 14 16:10:48 DDEBUG Cleaning up.
+Jun 14 16:10:48 SUBDEBUG 
+Traceback (most recent call last):
+  File "/usr/lib/python3.4/site-packages/dnf/repo.py", line 206, in perform
+    return super(_Handle, self).perform(result)
+  File "/usr/lib64/python3.4/site-packages/librepo/__init__.py", line 1425, in perform
+    _librepo.Handle.perform(self, result)
+librepo.LibrepoException: (8, "Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for https://mirrors.fedoraproject.org/metalink?repo=updates-released-f23&arch=x86_64 [Could not resolve host: mirrors.fedoraproject.org]", 'An Curl handle error')
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.4/site-packages/dnf/repo.py", line 796, in load
+    if self._try_revive():
+  File "/usr/lib/python3.4/site-packages/dnf/repo.py", line 710, in _try_revive
+    handle.perform()
+  File "/usr/lib/python3.4/site-packages/dnf/repo.py", line 210, in perform
+    raise _DetailedLibrepoError(exc, source)
+dnf.repo._DetailedLibrepoError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.4/site-packages/dnf/cli/main.py", line 84, in main
+    return _main(base, args)
+  File "/usr/lib/python3.4/site-packages/dnf/cli/main.py", line 136, in _main
+    cli.run()
+  File "/usr/lib/python3.4/site-packages/dnf/cli/cli.py", line 1090, in run
+    self._process_demands()
+  File "/usr/lib/python3.4/site-packages/dnf/cli/cli.py", line 810, in _process_demands
+    load_available_repos=lar)
+  File "/usr/lib/python3.4/site-packages/dnf/base.py", line 249, in fill_sack
+    self._add_repo_to_sack(r.id)
+  File "/usr/lib/python3.4/site-packages/dnf/base.py", line 104, in _add_repo_to_sack
+    repo.load()
+  File "/usr/lib/python3.4/site-packages/dnf/repo.py", line 817, in load
+    raise dnf.exceptions.RepoError(msg)
+dnf.exceptions.RepoError: Failed to synchronize cache for repo 'updates' from 'https://mirrors.fedoraproject.org/metalink?repo=updates-released-f23&arch=x86_64': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for https://mirrors.fedoraproject.org/metalink?repo=updates-released-f23&arch=x86_64 [Could not resolve host: mirrors.fedoraproject.org]
+Jun 14 16:10:48 CRITICAL Error: Failed to synchronize cache for repo 'updates' from 'https://mirrors.fedoraproject.org/metalink?repo=updates-released-f23&arch=x86_64': Cannot prepare internal mirrorlist: Curl error (6): Couldn't resolve host name for https://mirrors.fedoraproject.org/metalink?repo=updates-released-f23&arch=x86_64 [Could not resolve host: mirrors.fedoraproject.org]
+Jun 14 17:13:34 INFO --- logging initialized ---
+Jun 14 17:13:34 DDEBUG timer: config: 52 ms
+Jun 14 17:13:34 DEBUG cachedir: /var/cache/dnf
+Jun 14 17:13:34 DEBUG Loaded plugins: langpacks, playground, debuginfo-install, needs-restarting, protected_packages, noroot, reposync, Query, copr, download, config-manager, generate_completion_cache, builddep
+Jun 14 17:13:34 DEBUG Adding en_GB to language list
+Jun 14 17:13:34 DEBUG Error reading file : /var/lib/dnf/plugins/langpacks/installed_langpacks as it does not exist
+Jun 14 17:13:34 DEBUG initialized Langpacks plugin
+Jun 14 17:13:34 DEBUG DNF version: 1.1.3
+Jun 14 17:13:34 DDEBUG Command: dnf 
+Jun 14 17:13:34 DDEBUG Installroot: /
+Jun 14 17:13:34 DDEBUG Releasever: 23
+Jun 14 17:13:34 DDEBUG Base command: makecache
+Jun 14 17:13:34 DDEBUG Extra commands: ['timer']
+Jun 14 17:13:34 DEBUG Making cache files for all metadata files.
+Jun 14 17:13:34 INFO Metadata cache refreshed recently.
+Jun 14 17:13:34 DDEBUG Cleaning up.
+Jun 14 17:36:35 INFO --- logging initialized ---
+Jun 14 17:36:35 DDEBUG timer: config: 59 ms
+Jun 14 17:36:35 DEBUG cachedir: /var/cache/dnf
+Jun 14 17:36:35 DEBUG Loaded plugins: langpacks, copr, config-manager, reposync, debuginfo-install, generate_completion_cache, protected_packages, builddep, Query, download, needs-restarting, noroot, playground
+Jun 14 17:36:35 DEBUG Adding en_GB to language list
+Jun 14 17:36:35 DEBUG Error reading file : /var/lib/dnf/plugins/langpacks/installed_langpacks as it does not exist
+Jun 14 17:36:35 DEBUG initialized Langpacks plugin
+Jun 14 17:36:35 DEBUG DNF version: 1.1.3
+Jun 14 17:36:35 DDEBUG Command: dnf 
+Jun 14 17:36:35 DDEBUG Installroot: /
+Jun 14 17:36:35 DDEBUG Releasever: 23
+Jun 14 17:36:35 DDEBUG Base command: makecache
+Jun 14 17:36:35 DDEBUG Extra commands: ['timer']
+Jun 14 17:36:35 DEBUG Making cache files for all metadata files.
+Jun 14 17:36:36 INFO Metadata cache refreshed recently.
+Jun 14 17:36:36 DDEBUG Cleaning up.

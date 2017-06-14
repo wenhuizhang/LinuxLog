@@ -1,0 +1,114 @@
+Jun 13 14:40:16 localhost sshd[793]: Received signal 15; terminating.
+Jun 13 14:40:16 localhost login: pam_systemd(login:session): Failed to release session: Interrupted system call
+Jun 13 14:40:16 localhost login: pam_unix(login:session): session closed for user root
+Jun 13 14:41:50 localhost sshd[791]: Server listening on 0.0.0.0 port 22.
+Jun 13 14:41:50 localhost sshd[791]: Server listening on :: port 22.
+Jun 13 14:42:11 localhost systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Jun 13 14:42:12 localhost login: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jun 13 14:42:12 localhost login: ROOT LOGIN ON tty1
+Jun 14 13:47:18 localhost sshd[777]: Server listening on 0.0.0.0 port 22.
+Jun 14 13:47:18 localhost sshd[777]: Server listening on :: port 22.
+Jun 14 13:47:41 localhost login: pam_unix(login:auth): check pass; user unknown
+Jun 14 13:47:41 localhost login: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=tty1 ruser= rhost=
+Jun 14 13:47:43 localhost login: FAILED LOGIN 1 FROM tty1 FOR (unknown), User not known to the underlying authentication module
+Jun 14 13:47:48 localhost systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Jun 14 13:47:49 localhost login: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jun 14 13:47:49 localhost login: ROOT LOGIN ON tty1
+Jun 14 15:52:53 localhost sshd[777]: Received signal 15; terminating.
+Jun 14 15:52:53 localhost login: pam_systemd(login:session): Failed to release session: Connection reset by peer
+Jun 14 15:52:53 localhost login: pam_unix(login:session): session closed for user root
+Jun 14 15:52:53 localhost systemd: pam_unix(systemd-user:session): session closed for user root
+Jun 14 15:58:17 localhost sshd[814]: Server listening on 0.0.0.0 port 22.
+Jun 14 15:58:17 localhost sshd[814]: Server listening on :: port 22.
+Jun 14 15:58:27 localhost login: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=tty1 ruser= rhost=  user=root
+Jun 14 15:58:27 localhost login: pam_succeed_if(login:auth): requirement "uid >= 1000" not met by user "root"
+Jun 14 15:58:29 localhost login: FAILED LOGIN 1 FROM tty1 FOR root, Authentication failure
+Jun 14 15:58:44 localhost login: pam_succeed_if(login:auth): requirement "uid >= 1000" not met by user "root"
+Jun 14 15:58:45 localhost login: FAILED LOGIN 2 FROM tty1 FOR root, Authentication failure
+Jun 14 15:58:57 localhost login: pam_succeed_if(login:auth): requirement "uid >= 1000" not met by user "root"
+Jun 14 15:59:00 localhost login: FAILED LOGIN SESSION FROM tty1 FOR root, Authentication failure
+Jun 14 15:59:00 localhost login: PAM 2 more authentication failures; logname=LOGIN uid=0 euid=0 tty=tty1 ruser= rhost=  user=root
+Jun 14 15:59:20 localhost login: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=tty1 ruser= rhost=  user=root
+Jun 14 15:59:20 localhost login: pam_succeed_if(login:auth): requirement "uid >= 1000" not met by user "root"
+Jun 14 15:59:22 localhost login: FAILED LOGIN 1 FROM tty1 FOR root, Authentication failure
+Jun 14 15:59:41 localhost login: pam_unix(login:auth): check pass; user unknown
+Jun 14 15:59:41 localhost login: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=tty1 ruser= rhost=
+Jun 14 15:59:42 localhost login: FAILED LOGIN 2 FROM tty1 FOR (unknown), User not known to the underlying authentication module
+Jun 14 15:59:47 localhost login: pam_succeed_if(login:auth): requirement "uid >= 1000" not met by user "root"
+Jun 14 15:59:48 localhost login: FAILED LOGIN SESSION FROM tty1 FOR root, Authentication failure
+Jun 14 15:59:48 localhost login: PAM 1 more authentication failure; logname=LOGIN uid=0 euid=0 tty=tty1 ruser= rhost=  user=root
+Jun 14 16:00:14 localhost login: pam_unix(login:auth): check pass; user unknown
+Jun 14 16:00:14 localhost login: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=tty1 ruser= rhost=
+Jun 14 16:00:15 localhost login: FAILED LOGIN 1 FROM tty1 FOR (unknown), User not known to the underlying authentication module
+Jun 14 16:00:37 localhost login: pam_unix(login:auth): check pass; user unknown
+Jun 14 16:00:39 localhost login: FAILED LOGIN 2 FROM tty1 FOR (unknown), User not known to the underlying authentication module
+Jun 14 16:00:41 localhost login: pam_unix(login:auth): check pass; user unknown
+Jun 14 16:00:41 localhost login: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=tty1 ruser= rhost=
+Jun 14 16:00:44 localhost login: FAILED LOGIN SESSION FROM tty1 FOR (unknown), User not known to the underlying authentication module
+Jun 14 16:00:44 localhost login: PAM 1 more authentication failure; logname=LOGIN uid=0 euid=0 tty=tty1 ruser= rhost=
+Jun 14 16:01:02 localhost login: pam_unix(login:auth): check pass; user unknown
+Jun 14 16:01:02 localhost login: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=tty1 ruser= rhost=
+Jun 14 16:01:04 localhost login: FAILED LOGIN 1 FROM tty1 FOR (unknown), User not known to the underlying authentication module
+Jun 14 16:01:06 localhost login: pam_unix(login:auth): check pass; user unknown
+Jun 14 16:01:06 localhost login: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=tty1 ruser= rhost=
+Jun 14 16:01:08 localhost login: FAILED LOGIN 2 FROM tty1 FOR (unknown), User not known to the underlying authentication module
+Jun 14 16:01:08 localhost login: pam_unix(login:auth): check pass; user unknown
+Jun 14 16:01:11 localhost login: FAILED LOGIN SESSION FROM tty1 FOR (unknown), User not known to the underlying authentication module
+Jun 14 16:01:11 localhost login: PAM 1 more authentication failure; logname=LOGIN uid=0 euid=0 tty=tty1 ruser= rhost=
+Jun 14 16:01:46 localhost login: pam_unix(login:auth): check pass; user unknown
+Jun 14 16:01:46 localhost login: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=tty1 ruser= rhost=
+Jun 14 16:01:48 localhost login: FAILED LOGIN 1 FROM tty1 FOR (unknown), User not known to the underlying authentication module
+Jun 14 16:03:07 localhost login: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=tty1 ruser= rhost=  user=root
+Jun 14 16:03:07 localhost login: pam_succeed_if(login:auth): requirement "uid >= 1000" not met by user "root"
+Jun 14 16:03:09 localhost login: FAILED LOGIN 1 FROM tty1 FOR root, Authentication failure
+Jun 14 16:04:51 localhost login: pam_unix(login:auth): check pass; user unknown
+Jun 14 16:04:51 localhost login: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=tty1 ruser= rhost=
+Jun 14 16:04:53 localhost login: FAILED LOGIN 1 FROM tty1 FOR (unknown), User not known to the underlying authentication module
+Jun 14 16:05:09 localhost login: pam_unix(login:auth): check pass; user unknown
+Jun 14 16:05:09 localhost login: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=tty1 ruser= rhost=
+Jun 14 16:05:10 localhost login: FAILED LOGIN 2 FROM tty1 FOR (unknown), User not known to the underlying authentication module
+Jun 14 16:05:12 localhost login: pam_unix(login:auth): check pass; user unknown
+Jun 14 16:05:12 localhost login: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=tty1 ruser= rhost=
+Jun 14 16:05:14 localhost login: FAILED LOGIN SESSION FROM tty1 FOR (unknown), User not known to the underlying authentication module
+Jun 14 16:05:42 localhost systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Jun 14 16:05:42 localhost login: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jun 14 16:05:42 localhost login: ROOT LOGIN ON tty1
+Jun 14 16:51:58 localhost login: pam_unix(login:session): session closed for user root
+Jun 14 16:51:58 localhost sshd[814]: Received signal 15; terminating.
+Jun 14 16:51:58 localhost systemd: pam_unix(systemd-user:session): session closed for user root
+Jun 14 17:01:45 localhost sshd[779]: Server listening on 0.0.0.0 port 22.
+Jun 14 17:01:45 localhost sshd[779]: Server listening on :: port 22.
+Jun 14 17:01:58 localhost systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Jun 14 17:01:58 localhost login: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jun 14 17:01:58 localhost login: ROOT LOGIN ON tty1
+Jun 14 17:03:20 localhost sshd[779]: Received signal 15; terminating.
+Jun 14 17:03:20 localhost login: pam_systemd(login:session): Failed to release session: Interrupted system call
+Jun 14 17:03:20 localhost login: pam_unix(login:session): session closed for user root
+Jun 14 17:03:20 localhost systemd: pam_unix(systemd-user:session): session closed for user root
+Jun 14 17:03:34 localhost sshd[768]: Server listening on 0.0.0.0 port 22.
+Jun 14 17:03:34 localhost sshd[768]: Server listening on :: port 22.
+Jun 14 17:03:42 localhost systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Jun 14 17:03:42 localhost login: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jun 14 17:03:42 localhost login: ROOT LOGIN ON tty1
+Jun 14 17:16:51 localhost sshd[1411]: error: Bind to port 22 on 0.0.0.0 failed: Address already in use.
+Jun 14 17:16:51 localhost sshd[1411]: error: Bind to port 22 on :: failed: Address already in use.
+Jun 14 17:16:51 localhost sshd[1411]: fatal: Cannot bind any address.
+Jun 14 17:17:46 localhost sshd[1461]: error: Bind to port 22 on 0.0.0.0 failed: Address already in use.
+Jun 14 17:17:46 localhost sshd[1461]: error: Bind to port 22 on :: failed: Address already in use.
+Jun 14 17:17:46 localhost sshd[1461]: fatal: Cannot bind any address.
+Jun 14 17:24:39 localhost sshd[1554]: Accepted password for root from 192.168.66.1 port 55587 ssh2
+Jun 14 17:24:39 localhost sshd[1554]: pam_unix(sshd:session): session opened for user root by (uid=0)
+Jun 14 17:26:18 localhost sshd[768]: Received signal 15; terminating.
+Jun 14 17:26:18 localhost login: pam_systemd(login:session): Failed to release session: Connection reset by peer
+Jun 14 17:26:18 localhost login: pam_unix(login:session): session closed for user root
+Jun 14 17:26:18 localhost systemd: pam_unix(systemd-user:session): session closed for user root
+Jun 14 17:26:33 localhost sshd[763]: Server listening on 0.0.0.0 port 22.
+Jun 14 17:26:33 localhost sshd[763]: Server listening on :: port 22.
+Jun 14 17:26:49 localhost systemd: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Jun 14 17:26:49 localhost login: pam_unix(login:session): session opened for user root by LOGIN(uid=0)
+Jun 14 17:26:49 localhost login: ROOT LOGIN ON tty1
+Jun 14 17:51:46 localhost sshd[1599]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.66.1  user=root
+Jun 14 17:51:46 localhost sshd[1599]: pam_succeed_if(sshd:auth): requirement "uid >= 1000" not met by user "root"
+Jun 14 17:51:48 localhost sshd[1599]: Failed password for root from 192.168.66.1 port 55688 ssh2
+Jun 14 17:52:00 localhost sshd[1599]: Accepted password for root from 192.168.66.1 port 55688 ssh2
+Jun 14 17:52:00 localhost sshd[1599]: pam_unix(sshd:session): session opened for user root by (uid=0)

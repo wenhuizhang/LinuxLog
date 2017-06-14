@@ -2,8 +2,9 @@
 # bash script for record taking of registry files
 # for seattle fedora jun 8th 2017
 
-timestamp=$(date +"%T")
+timestamp=$(date +"%N")
 echo $timestamp
+
 cd ./records
 mkdir ./"$timestamp"
 cd ./"$timestamp"

@@ -9,7 +9,8 @@ while [ "$k" -ne "0" ];
 do
 echo "taking records" 
 echo $[10-$k]
-./runTakeRecords.sh
-sleep 60
+./runTakeRecords.sh &
+sleep 1
 k=$[$k-1]
+echo 'sdfs'
 done
