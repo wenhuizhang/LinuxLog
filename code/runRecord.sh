@@ -12,5 +12,4 @@ echo $[10-$k]
 ./runTakeRecords.sh &
 sleep 1
 k=$[$k-1]
-echo 'sdfs'
 done
