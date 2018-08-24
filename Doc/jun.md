@@ -18,9 +18,6 @@ Such configuration files maybe not contain something, but they need to be checke
 kernel.randomize_va_space for buffer overflow attack (Stack Guard);
 magic_quotes_gpc inside /etc/php5/apache2/php.ini, for SQL-Injection;
  
-Please correct me if I misunderstand the problem under your investigation.
-Thanks!
-Best,
-Jun
+
 
 ```
