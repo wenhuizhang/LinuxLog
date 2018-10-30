@@ -19,5 +19,3 @@ kernel.randomize_va_space for buffer overflow attack (Stack Guard);
 magic_quotes_gpc inside /etc/php5/apache2/php.ini, for SQL-Injection;
  
 
-
-```
